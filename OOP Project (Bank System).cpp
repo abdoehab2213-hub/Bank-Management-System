@@ -6,7 +6,7 @@
 using namespace std;
 
 void showMenu() {
-    cout << "\n--- Advanced Bank Management System ---\n";
+    cout << "\n--- Bank Management System ---\n";
     cout << "1. Add New Account\n";
     cout << "2. Deposit Money\n";
     cout << "3. Withdraw Money\n";
@@ -17,7 +17,7 @@ void showMenu() {
 }
 
 int main() {
-    BankSystem bank; // هيعمل Load تلقائي هنا
+    BankSystem bank; 
     int choice, typeChoice, id, targetId;
     double amount;
 
@@ -63,7 +63,7 @@ int main() {
             break;
         case 6:
             cout << "Saving data... Thank you for using our Bank System. Goodbye!\n";
-            break; // الـ Destructor بتاع كلاس bank هيشتغل هنا تلقائي ويسيف
+            break;
         default:
             cout << "Invalid choice! Please try again.\n";
         }
