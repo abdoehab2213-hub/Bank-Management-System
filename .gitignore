@@ -1,0 +1,17 @@
+## Ignore Visual Studio Temporary Files and Output
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.aps
+*.suo
+*.db
+*.opendb
+
+## Ignore Project Outputs
+*.exe
+*.pdb
+*.ilk
+*.lk
